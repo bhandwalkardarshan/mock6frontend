@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/html/signup.html">Signup</a></li>
+            <li><a href="/index.html">Sign in</a></li>
+            <li><a href="/html/blog.html">Blogs</a></li>
+        </ul>
+    </nav>
+    <button onclick="createBlog()">Create Blog</button>
+    <!-- <div class="filter">
+        <div class="filter-name">
+            <label for="filterName">Filter by Name:</label>
+            <input type="text" id="filterNameInput" placeholder="Search by Name">
+            <button id="filterNameButton" onclick="filterData()">Search</button>
+        </div>
+        <div class="filter-category">
+            <label for="categorySelect">Filter by Category:</label>
+            <select id="categorySelect" onchange="filterData()">
+              <option value="Business">Business</option>
+              <option value="Tech">Tech</option>
+              <option value="Lifestyle">Lifestyle</option>
+              <option value="Entertainment">Entertainment</option>
+            </select>
+          </div>
+          <div class="filter-date">
+            <label for="dateSelect">Sort by Date:</label>
+            <select id="sortSelect" onchange="filterData()">
+              <option value="asc">Ascending</option>
+              <option value="desc">Descending</option>
+          </div>
+    </div> -->
+    <div id="blogContainer"></div>
+</body>
+</html>
+<script src="../scripts/blog.js"></script>
